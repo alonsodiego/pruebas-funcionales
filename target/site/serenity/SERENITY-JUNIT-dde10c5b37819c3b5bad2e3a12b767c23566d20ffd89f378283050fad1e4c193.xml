@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="pruebas.funcionales.features.search.SearchByKeywordStory" skipped="0" tests="1" time="8.48" timestamp="2019-03-24 02:02:11"><testcase classname="pruebas.funcionales.features.search.SearchByKeywordStory" name="Seach results should show the search term in the title"/></testsuite>

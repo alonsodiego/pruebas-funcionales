@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="pruebas.funcionales.features.record_items.AddItemsStory" skipped="0" tests="2" time="42.66" timestamp="2019-03-22 10:00:13"><testcase classname="pruebas.funcionales.features.record_items.AddItemsStory" name="Should be able to add an item to the todo list"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+pruebas.funcionales.tasks.AddATodoItem.performAs(AddATodoItem.java:18)
+pruebas.funcionales.features.record_items.AddItemsStory.should_be_able_to_add_an_item_to_the_todo_list(AddItemsStory.java:37)
+</system-err></testcase><testcase classname="pruebas.funcionales.features.record_items.AddItemsStory" name="Should be able to add an item to a todo list with existing items"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+pruebas.funcionales.tasks.AddATodoItem.performAs(AddATodoItem.java:18)
+pruebas.funcionales.tasks.StartWithATodoListContaining.lambda$performAs$0(StartWithATodoListContaining.java:22)
+pruebas.funcionales.tasks.StartWithATodoListContaining.performAs(StartWithATodoListContaining.java:21)
+pruebas.funcionales.features.record_items.AddItemsStory.should_be_able_to_add_an_item_to_a_todo_list_with_existing_items(AddItemsStory.java:45)
+</system-err></testcase></testsuite>

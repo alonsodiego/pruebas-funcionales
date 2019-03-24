@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="pruebas.funcionales.SearchByStringTest" skipped="0" tests="1" time="22.27" timestamp="2019-03-21 06:46:53"><testcase classname="pruebas.funcionales.SearchByStringTest" name="Should be able to add an item to the todo list"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled
+pruebas.funcionales.tasks.AddATodoItem.performAs(AddATodoItem.java:18)
+pruebas.funcionales.SearchByStringTest.should_be_able_to_add_an_item_to_the_todo_list(SearchByStringTest.java:44)
+</system-err></testcase></testsuite>

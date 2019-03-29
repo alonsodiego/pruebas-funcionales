@@ -4,16 +4,16 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
 import net.thucydides.core.annotations.Step;
-import pruebas.funcionales.pages.GoogleSearchPage;
+import pruebas.funcionales.pages.RetencionesJudicialesPage;
 
-public class OpenTheApplication implements Task {
+public class IniciarAplicacion implements Task {
 
-    GoogleSearchPage googleSearchPage;
+    RetencionesJudicialesPage retencionesJudicialesPage;
 
-    @Step("Open the application")
+    @Step("Abrir aplicacion")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Open.browserOn().the(googleSearchPage)
+                Open.browserOn().the(retencionesJudicialesPage)
         );
     }
 }
